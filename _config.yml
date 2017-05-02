@@ -1,0 +1,38 @@
+# Site settings
+title: Irina Parenko
+description: 'Digital Marketing Specialist'
+url: 'https://www.linkedin.com/in/irinaparenko/' 
+baseurl: '/'
+#google_analytics: 'UA-501066-1'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Irina Parenko'
+  email: irina.parenko95@gmail.com 
+  #twitter_username: evgeniykhomenko
+  linkedin_username:  irinaparenko
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  syntax_highlighter: rouge
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'src']
