@@ -9,7 +9,6 @@ baseurl: '/'
 author:
   name: 'Irina Parenko'
   email: irina.parenko95@gmail.com 
-  #twitter_username: evgeniykhomenko
   linkedin_username:  irinaparenko
 
 defaults:
