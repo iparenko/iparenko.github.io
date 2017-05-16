@@ -2,7 +2,9 @@
 title: Irina Parenko
 description: 'Digital Marketing Specialist'
 url: 'https://www.linkedin.com/in/irinaparenko/' 
+cv: '/irina_parenko_cv.pdf'
 baseurl: '/'
+cv: '/downloads/irina_parenko_cv.pdf'
 #google_analytics: 'UA-501066-1'
 # disqus_shortname: 'your-disqus-name'
 
@@ -12,12 +14,11 @@ author:
   linkedin_username:  irinaparenko
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ''
       type: 'posts'
     values:
-        layout: 'post'
+      layout: 'post'
 
 # Build settings
 destination: _site
